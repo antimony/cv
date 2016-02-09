@@ -26,7 +26,7 @@
 % personal data
 \name{Mikhail}{Surin}
 \title{Software Engineer}                               % optional, remove / comment the line if not wanted
-\address{street and number}{postcode city}{country}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+%\address{street and number}{postcode city}{country}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
 \phone[mobile]{+7~(926)~731~0019}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
 %\phone[fixed]{+2~(345)~678~901}
 %\phone[fax]{+3~(456)~789~012}
@@ -35,8 +35,8 @@
 \social[linkedin]{msurin}                        % optional, remove / comment the line if not wanted
 \social[twitter]{mhlsu}                             % optional, remove / comment the line if not wanted
 \social[github]{antimony}                              % optional, remove / comment the line if not wanted
-\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
-%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 %\quote{Some quote}                                 % optional, remove / comment the line if not wanted
 
 % bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
@@ -57,8 +57,8 @@
 \makecvtitle
 
 \section{Education}
-\cventry{2002--2008}{Theoretical Physics}{Ural State Technical University}{Ekaterinburg}{\textit{Engineer}}{Description}  % arguments 3 to 6 can be left empty
-\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
+\cventry{2002--2008}{Theoretical Physics}{Ural State Technical University}{Ekaterinburg}{\textit{Engineer}}{}  % arguments 3 to 6 can be left empty
+\cventry{2012}{Mobile Applications Deveploment}{Ural State Technical University}{Ekaterinburg}{}{Mobile applications development with HTML and javascript.}
 
 \section{Master thesis}
 \cvitem{title}{\emph{Title}}
@@ -67,32 +67,31 @@
 
 \section{Experience}
 \subsection{Vocational}
-\cventry{2014--}{Senior Software Engineer}{Yandex}{Moscow}{}{General description no longer than 1--2 lines.\newline{}%
+\cventry{2014--}{Senior Software Engineer}{Yandex}{Moscow}{}{Yandex.Tickets\newline{} Java, Spring MVC, MongoDB}%
 Detailed achievements:%
 \begin{itemize}%
-\item Achievement 1;
-\item Achievement 2, with sub-achievements:
-  \begin{itemize}%
-  \item Sub-achievement (a);
-  \item Sub-achievement (b), with sub-sub-achievements (don't do this!);
-    \begin{itemize}
-    \item Sub-sub-achievement i;
-    \item Sub-sub-achievement ii;
-    \item Sub-sub-achievement iii;
-    \end{itemize}
-  \item Sub-achievement (c);
-  \end{itemize}
-\item Achievement 3.
-\end{itemize}}
-\cventry{2013--2014}{Software Engineer}{Yandex}{Moscow}{}{Description line 1\newline{}Description line 2}
-\cventry{2012--2013}{Software Engineer}{Rambler}{Moscow}{}{Rambler-Kassa\newline{}Description line 2}
-\cventry{2012}{Developer}{McLeod Software}{Ekaterinburg}{}{ASP.net based application development\newline{}Description line 2}
-\cventry{2011-2012}{Team Lead}{WebTeam}{Ekaterinburg}{}{ASP.net based application development\newline{}Description line 2}
-\cventry{2010-2012}{Web Developer}{Yaxon}{Ekaterinburg}{}{ASP.net based application development\newline{}Description line 2}
-\cventry{2008-2010}{Developer}{eConsortian}{Ekaterinburg}{}{ASP.net based application development\newline{}Description line 2}
-\cventry{2006-2010}{System Administrator}{Technotel}{Ekaterinburg}{}{Network support for gas-turbine power plant\newline{}Description line 2}
+\item Ability to import hall schemes from Sketch/Photoshop/Adobe Illustrator;%
+\item Integration with show and theatre tickets providers;%
+\end{itemize}%
+\cventry{2013--2014}{Software Engineer}{Yandex}{Moscow}{}{Yandex.Tickets. \newline{} Java, Spring MVC, MongoDB}%
+Detailed achievements:%
+\begin{itemize}%
+\item Development of initial service architecture:%
+ \begin{itemize}%
+  \item Selected database;%
+  \item Developed structure of API;%
+  \item Developed managers admin panel;%
+  \end{itemize}%
+\item Integration with cinema tickets providers%
+\end{itemize}
+\cventry{2012--2013}{Software Engineer}{Rambler}{Moscow}{}{Rambler-Kassa\newline{}ASP.NET MVC, }
+\cventry{2012}{Developer}{McLeod Software}{Ekaterinburg}{}{ASP.net based application development\newline{}ASP.NET, VB, javacript, MSSQL}
+\cventry{2011-2012}{Team Lead}{WebTeam}{Ekaterinburg}{}{ASP.net based application development\newline{}ASP.NET MVC, NHibernate, MSSQL, MongoDB}
+\cventry{2010-2012}{Web Developer}{Yaxon}{Ekaterinburg}{}{ASP.net based application development\newline{}ASP.NET, NHibernate, Lucene, Solr, javascript}
+\cventry{2008-2010}{Developer}{eConsortian}{Ekaterinburg}{}{ASP.net based application development\newline{} .NET, MSSQL, javascript, ActionScript, Wowza}
+\cventry{2006-2010}{System Administrator}{Technotel}{Ekaterinburg}{}{Network support for gas-turbine power plant\newline{}}
 \subsection{Miscellaneous}
-\cventry{2008--2015}{Freelance developer}{Employer}{City}{}{Description}
+\cventry{2008--2015}{Freelance developer}{}{}{}{{}}
 
 \section{Languages}
 \cvitemwithcomment{Russian}{Native speaker}{Comment}
@@ -119,23 +118,6 @@ Detailed achievements:%
 \cvitem{Volleyball}{Playing 3 times a week}
 \cvitem{Mind games}{Jeopardy etc.}
 \cvitem{Music}{Classic rock-n-roll, 60s', 70s'}
-
-\section{Extra 1}
-\cvlistitem{Item 1}
-\cvlistitem{Item 2}
-\cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
-
-\section{Extra 2}
-\cvlistdoubleitem{Item 1}{Item 4}
-\cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
-\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
-
-\section{References}
-\begin{cvcolumns}
-  \cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
-  \cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
-  \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
-\end{cvcolumns}
 
 % Publications from a BibTeX file without multibib
 %  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
